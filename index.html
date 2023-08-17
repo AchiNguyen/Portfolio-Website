@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <link href="./resources/css/index.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a4a0daa5c0.js" crossorigin="anonymous"></script>
+
+
+
+        <title>
+            A Flying Nguyen
+        </title>
+    </head>
+    <body>
+       <div id="header">
+         <div class="container">
+            <nav>
+                <img src="resources/images/UBC_logo.png" class ="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="open-menu" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Chemical Engineer Student 
+                    <br> Electrical Engineer Student
+                </p>
+                <h1>
+                    <span>Achi Nguyen</span>
+                <br> Vancouver, Canada
+                </h1>
+
+            </div>
+         </div>
+        </div>
+
+<!-- ------------------------about---------------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="resources/images/Headshot.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="intro">
+                           Hi there! My name is Achi, and I am currently a Chemical Engineering student at the University of British Columbia. I have always had a passion for technology and programming, and I am proud to call myself a self-taught coder. Throughout my academic career, I have been working on various projects that merge my love for chemical engineering and coding.  I am based in Vancouver and, in my free time, I am also an avid soccer player. I find immense joy in the teamwork and strategic elements that come with the sport. This dual passion for technology and teamwork has significantly shaped me into a strong problem-solver and a collaborative team player.  As I embark on my journey, I am actively seeking summer internships or jobs in the software engineering field. I am excited to continue learning and growing in my career, and I firmly believe that with my skills and dedication, I can make a valuable contribution to any team. Let's get connected
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('awards')">Awards</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('institutions')">Institution</p>
+                            <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="awards">
+                            <ul>
+                                <li><span>Ike Barber Transfer Scholarship</span> BC Scholarship Society<br>A Competitve Scholarship for transfer students with well-rounded personal and academic achievements</li>
+                                <li><span>Nicholas Pelcas Engineering Award</span> Vancouver Island University<br>An awards for top percentile student in the engineering proram at the Vancouver Island University</li>
+                                <li><span>Nomination of Student Leader</span><br>An nomination for students with high Leadership within the Engineering program at Vancouver Island University</li>
+                                
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>Arduino</span><br>Design embedded System for Electronic/Robotic Devices</li>
+                                <li><span>C++</span><br>Develop/Integrate software/applications</li>
+                                <li><span>Matlab</span><br>Analyze and process engineering data</li>
+                                
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="institutions">
+                            <ul>
+                                <li><span>Vancouver Island University </span> Engineer Transfer Certificate 2022-2023<br> A competitve program to transfer to the second-year engineering at University of British Columbia</li>
+                                <li><span>University of British Columbia</span> Chemical Engineering 2023-2026 <br> Undergraduate Engineering Program in Chemical Engineering</li>
+                                
+                                
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="certification">
+                            <ul>
+                                <li><span> C++ for Software Developer </span> Codecademy <br>Lorem ipsum dolor sit amet. Et quas iusto quo omnis dolor ad voluptate repellendus ea amet voluptates et accusantium veritatis. Ut voluptatem galisum est architecto nihil est omnis tempore id commodi nihil At commodi iusto!</li>
+                                <li><span>Web Develope</span> Codecademy <br>Lorem ipsum dolor sit amet. Et quas iusto quo omnis dolor ad voluptate repellendus ea amet voluptates et accusantium veritatis. Ut voluptatem galisum est architecto nihil est omnis tempore id commodi nihil At commodi iusto!</li>
+                                
+                                
+                            </ul>
+
+                        </div>
+                        
+                    </div>
+            
+
+                </div>
+
+            </div>
+
+        </div>
+
+<!-- ------------------------projects---------------------------------- -->
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="projects-list">
+                    <div>
+                        <i class="fa-regular fa-helicopter" style="color: #FFF;"></i>
+                        <h2>Unmanned Aerial Vehicle</h2>
+                        <p>Lorem ipsum dolor sit amet. Et quas iusto quo omnis dolor ad voluptate repellendus ea amet voluptates et accusantium veritatis. Ut voluptatem galisum est architecto nihil est omnis tempore id commodi nihil At commodi iusto!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    
+                    <div>
+                        <i class="fa-solid fa-chair" style="color: #ffffff;"></i>
+                        <h2>Cardboard Chair</h2>
+                        <p>Lorem ipsum dolor sit amet. Et quas iusto quo omnis dolor ad voluptate repellendus ea amet voluptates et accusantium veritatis. Ut voluptatem galisum est architecto nihil est omnis tempore id commodi nihil At commodi iusto!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    
+                    <div>
+                        <i class="fa-regular fa-circle" style="color: #ffffff;"></i>
+                        <h2>Rolling Ball Structure</h2>
+                        <p>Lorem ipsum dolor sit amet. Et quas iusto quo omnis dolor ad voluptate repellendus ea amet voluptates et accusantium veritatis. Ut voluptatem galisum est architecto nihil est omnis tempore id commodi nihil At commodi iusto!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+<!-- ------------------------Porfolio---------------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="resources/images/Roll_Ball_1.jpeg" alt="Rolling Ball Structure">
+                <div class="layer">
+                    <h3>Rolling Ball Structure</h3>
+                    <p>An Engineering Project commissioned by theVancouver Island University</p>
+                    <a href="#"><i class="fa-regular fa-link"></i></a>
+
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="resources/images/Drone.jpeg" alt="Drone">
+                <div class="layer">
+                    <h3>Unmanned Aerial Vehicle</h3>
+                    <p>An Personal Engineering Project aimed to discover/enhance electronic skills</p>
+                    <a href="#"><i class="fa-regular fa-link"></i></a>
+
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="resources/images/CB_chair_1.jpeg" alt="Cardboard Chair">
+                <div class="layer">
+                    <h3>Cardboard Chair</h3>
+                    <p>A Project within the Engineering curriculum at the Vancouver Island University</p>
+                    <a href="#"><i class="fa-regular fa-link"></i></a>
+
+                </div>
+                
+            </div>
+
+
+
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+
+</div>
+
+<!-- ------------------------contact---------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>contact@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>(250)-123-4567</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                </div>
+                <a href="resources/Achi_Nguyen_-_Electrical_Engineer_Co-op.pdf" target="_blank" class="btn btn2">My Resume</a>
+
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>
+            Copyright © by Achi Nguyen - Personally developed using HTML, CSS, JavaScript
+        </p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-contents');
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu")
+            function openmenu(){
+                sidemenu.style.right = "0";   
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";   
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzzfUX3VlFOgj7Fp-ghCkEpvReIbtIkTvSyX14r6Jppd9hgJ2ZZQrU9vl_HeyrkgWBD/exec';
+            const form = document.forms['submit-to-google-sheet'];
+            const msg = document.getElementById("msg");
+            let timeoutId;
+          
+            form.addEventListener('submit', async e => {
+              e.preventDefault();
+              
+              if (timeoutId) {
+                clearTimeout(timeoutId);
+              }
+          
+              try {
+                const formData = new FormData(form);
+                const response = await fetch(scriptURL, {
+                  method: 'POST',
+                  body: formData
+                });
+          
+                if (response.ok) {
+                  msg.innerHTML = "Message sent successfully";
+                  timeoutId = setTimeout(function() {
+                    msg.innerHTML = "";
+                  }, 1000);
+                  form.reset();
+                } else {
+                  throw new Error('Failed to send message');
+                }
+              } catch (error) {
+                console.error('Error!', error.message);
+              }
+            });
+          </script>
+
+
+
+
+<!---   Failed Feature!!!
+
+
+          <script>
+                        // Get references to the elements
+                const mobileMenu = document.getElementById('sidemenu');
+                const openMenuIcon = document.getElementById('open-menu');
+                const body = document.body;
+
+                // Function to open/close the mobile menu
+                function toggleMobileMenu() {
+                    mobileMenu.classList.toggle('active');
+                    body.classList.toggle('no-scroll'); // Prevent scrolling when menu is open
+                }
+
+                // Event listener for clicking the menu icon
+                openMenuIcon.addEventListener('click', toggleMobileMenu);
+
+                // Prevent scrolling when mobile menu is open
+                mobileMenu.addEventListener('touchmove', function(e) {
+                        e.preventDefault();
+                }, { passive: false });
+
+            </script> -->
+
+<!--    Failed Feature
+
+
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzzfUX3VlFOgj7Fp-ghCkEpvReIbtIkTvSyX14r6Jppd9hgJ2ZZQrU9vl_HeyrkgWBD/exec'
+            const form = document.forms['submit-to-google-sheet']
+            var msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "The message is sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script> -->
+        
+    </body>
+</html>
